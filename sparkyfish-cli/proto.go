@@ -8,7 +8,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/gizak/termui"
+	"gopkg.in/gizak/termui.v2"
 )
 
 func (sc *sparkyClient) beginSession() {

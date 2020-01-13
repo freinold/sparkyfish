@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/gizak/termui"
+	"gopkg.in/gizak/termui.v2"
 )
 
 type pingHistory []int64

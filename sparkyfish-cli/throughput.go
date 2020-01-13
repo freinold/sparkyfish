@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gizak/termui"
+	"gopkg.in/gizak/termui.v2"
 )
 
 // Kick off a throughput measurement test

@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/dustin/randbo"
-	"github.com/gizak/termui"
+	"gopkg.in/gizak/termui.v2"
 )
 
 const (
@@ -70,11 +70,6 @@ func main() {
 	err := termui.Init()
 	if err != nil {
 		panic(err)
-	}
-
-	if termui.TermWidth() < 60 || termui.TermHeight() < 28 {
-		fmt.Println("sparkyfish needs a terminal window at least 60x28 to run.")
-		os.Exit(1)
 	}
 
 	defer termui.Close()
